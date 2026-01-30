@@ -1,0 +1,108 @@
+/* F2A65A background color */
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+/* font-family: "Bungee", sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Bungee", sans-serif;
+    background-color: #F2A65A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.container{
+    border: 2px solid black;
+    padding: 20px;
+    height: 550px;
+    width: 900px;
+    border-radius: 30px;
+    background: #F7DB91;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.name{
+    font-size: 30px;
+    text-align: center;
+}
+.opt{
+    width: 700px;
+    height: 210px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 0px 20px;
+}
+.choice{
+    background: #F7F6D3;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.choice:hover{
+    box-shadow: 2px 2px 10px rgb(0, 0, 0);
+}
+img{
+    width: 160px;
+    height: 160px;
+}
+.options
+{
+    font-size: 15px;
+}
+.score-card{
+    border-radius: 20px;
+    width: 400px;
+    height: 80px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    padding: 10px;
+}
+p{
+    text-align: center;
+}
+.players{
+    color: #7132CA;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.player-sc{
+    color: black;
+    font-size: 18px;
+}
+.comp-choice{
+    width: 400px;
+    text-align: center;
+    height: 70px;
+    color: #7132CA;
+}
+.rst{
+    padding: 20px;
+    width: 200px;
+    border: none;
+    border-radius: 20px;
+    background: #F2A65A;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Bungee", sans-serif;
+    color: #000;
+    letter-spacing: 2px;
+}
+.comp-score,.player-score{
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
